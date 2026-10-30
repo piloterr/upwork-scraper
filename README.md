@@ -612,8 +612,8 @@ Example response from the API reference, abridged — real values depend on the 
   ],
   "rating": 4.95,
   "seller": {
-    "url": "https://www.upwork.com/freelancers/mianmuhammadusmanp",
-    "name": "Mian Muhammad Usman P."
+    "url": "example",
+    "name": "example"
   },
   "pricing": {
     "currency": "USD",
@@ -731,7 +731,7 @@ Any language that can make an HTTP request. This README shows Python and TypeScr
 - [Crunchbase Scraper API](https://github.com/piloterr/crunchbase-scraper)
 - [Europages Scraper API](https://github.com/piloterr/europages-scraper)
 - [Fiverr Scraper API](https://github.com/piloterr/fiverr-scraper)
-- [g2-scraper](https://github.com/piloterr/g2-scraper)
+- [G2 Scraper API](https://github.com/piloterr/g2-scraper)
 - [github-scraper](https://github.com/piloterr/github-scraper)
 - [All Piloterr scrapers on GitHub](https://github.com/piloterr)
 
