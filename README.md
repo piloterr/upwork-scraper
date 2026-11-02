@@ -76,7 +76,7 @@ response = requests.get(
     params={
         "query": "~0123456789abcdef01",
     },
-    timeout=60,
+    timeout=120,
 )
 response.raise_for_status()
 data = response.json()
@@ -215,7 +215,7 @@ response = requests.get(
     params={
         "query": "api-development",
     },
-    timeout=60,
+    timeout=120,
 )
 response.raise_for_status()
 data = response.json()
@@ -392,7 +392,7 @@ response = requests.get(
     params={
         "query": "mobile-apps",
     },
-    timeout=60,
+    timeout=120,
 )
 response.raise_for_status()
 data = response.json()
@@ -535,7 +535,7 @@ response = requests.get(
     params={
         "query": "https://www.upwork.com/services/product/development-it-mobile-app-developer-android-ios-flutter-application-hybrid-apps-1403673770703212544",
     },
-    timeout=60,
+    timeout=120,
 )
 response.raise_for_status()
 data = response.json()
